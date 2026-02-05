@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Cities of Afghanistan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="Gallery.html">City Gallery</a></li>
+                <li><a href="Day.html">City of the Day</a></li>
+                <li><a class="active" href="Submit.html">Submit a City</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Submit form -->
+    <div class="container">
+        <form action="#" method="post">
+            <div>
+                <label for="name"><strong>Name:</strong></label>
+                <input type="text" id="name" placeholder="Enter Your Name..." required>
+            </div>
+            <br>
+            <div>
+                <label for="city-name"><strong>City Name:</strong></label>
+                <input type="text" id="city-name" placeholder="Enter Your City Name..." required>
+            </div>
+            <br>
+            <div>
+                <label for="cultural-details"><strong>Cultural Details:</strong></label>
+                <textarea id="cultural-details" cols="41" rows="5" placeholder="Enter your cultural details..."
+                    required></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
